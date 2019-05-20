@@ -12,6 +12,12 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.ValueEventListener
+import com.google.firebase.analytics.FirebaseAnalytics
+import android.R.id
+
+
+
+
 
 
 
@@ -22,6 +28,10 @@ class RecyclerViewActivity : AppCompatActivity() {
     private var linearLayoutManager: LinearLayoutManager? = null
     private var callsList: MutableList<Call>? = null
     private var callsAdapter: CallsAdapter? = null
+
+    // mannir
+    private var mFirebaseAnalytics: FirebaseAnalytics? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycler_view)
@@ -33,6 +43,14 @@ class RecyclerViewActivity : AppCompatActivity() {
 
         // Limiting the size
         recyclerView!!.setHasFixedSize(true)
+
+        // mannir
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+        val bundle = Bundle()
+        bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "id")
+        bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "name")
+        bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "image")
+        mFirebaseAnalytics!!.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle)
 
         // Initialize list items
         init()
