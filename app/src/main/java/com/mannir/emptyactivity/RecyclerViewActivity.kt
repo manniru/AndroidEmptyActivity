@@ -5,7 +5,17 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
+import android.util.Log
 import java.util.ArrayList
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.ValueEventListener
+
+
+
+
 
 class RecyclerViewActivity : AppCompatActivity() {
     private var recyclerView: RecyclerView? = null
@@ -26,6 +36,26 @@ class RecyclerViewActivity : AppCompatActivity() {
 
         // Initialize list items
         init()
+
+        // Firebase
+        val database = FirebaseDatabase.getInstance()
+        val myRef = database.getReference("message")
+
+        myRef.setValue("Hello World form Android Studio")
+
+        myRef.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(dataSnapshot: DataSnapshot) {
+                // This method is called once with the initial value and again
+                // whenever data at this location is updated.
+                val value = dataSnapshot.getValue(String::class.java)
+                Log.d("13131", "Value is: " + value!!)
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                // Failed to read value
+                Log.w("13131", "Failed to read value.", error.toException())
+            }
+        })
 
     }
 

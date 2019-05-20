@@ -1,0 +1,238 @@
+{
+  "project_info": {
+    "project_number": "346053439468",
+    "firebase_url": "https://bkanapp.firebaseio.com",
+    "project_id": "bkanapp",
+    "storage_bucket": "bkanapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346053439468:android:418179fe45425b0f",
+        "android_client_info": {
+          "package_name": "com.bridou_n.beaconscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi12W9fNebQRe9D8cm4PgMKhSCzwy8gkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346053439468:android:2a0fd0cb22271f6d",
+        "android_client_info": {
+          "package_name": "com.example.srikate.ibeacondemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi12W9fNebQRe9D8cm4PgMKhSCzwy8gkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346053439468:android:953fae5f72adf6a1",
+        "android_client_info": {
+          "package_name": "com.mannir.beaconscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi12W9fNebQRe9D8cm4PgMKhSCzwy8gkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346053439468:android:f34f3feb5ea9575f",
+        "android_client_info": {
+          "package_name": "com.mannir.bkan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346053439468-5i74k6f63sof1sha8fsqqbfb5vjda08a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mannir.bkan",
+            "certificate_hash": "14bd54219be672132cdeb03c13895b5828b5de77"
+          }
+        },
+        {
+          "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi12W9fNebQRe9D8cm4PgMKhSCzwy8gkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346053439468:android:b6048061f2f3cd0c",
+        "android_client_info": {
+          "package_name": "com.mannir.bkanscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi12W9fNebQRe9D8cm4PgMKhSCzwy8gkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346053439468:android:47aa24e025d5262f",
+        "android_client_info": {
+          "package_name": "com.mannir.emptyactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346053439468-0379gpc88n52kfg5fac270v9sco604hq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mannir.emptyactivity",
+            "certificate_hash": "14bd54219be672132cdeb03c13895b5828b5de77"
+          }
+        },
+        {
+          "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi12W9fNebQRe9D8cm4PgMKhSCzwy8gkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346053439468:android:05c2baba97286847",
+        "android_client_info": {
+          "package_name": "mannir.bkan.browser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346053439468-ab6uj00ogj9rkfp8ohads3d952tbcmnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mannir.bkan.browser",
+            "certificate_hash": "14bd54219be672132cdeb03c13895b5828b5de77"
+          }
+        },
+        {
+          "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi12W9fNebQRe9D8cm4PgMKhSCzwy8gkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346053439468-npcd40qolo7ea2v8n98cbr8ft70mraqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
